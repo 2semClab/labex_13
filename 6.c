@@ -18,7 +18,7 @@ int main(){
     if(index == 0)
         printf("Element not found\n");
     else
-        printf("Element found at index : %d",index);
+        printf("Element found at index : %d\n",index);
     return 0;
 }
 
