@@ -16,7 +16,7 @@ void primeFactors(int n, int factor){
         primeFactors(n/factor,factor);
     }
     else{
-        primeFactors(n,factor+2);
+        primeFactors(n,factor+1);
     }
 
 }
