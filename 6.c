@@ -1,6 +1,5 @@
 //Write a recursive function to search an element in an array using Linear Search.
 #include<stdio.h>
-
 int LinearSearch(int a[],int n,int s,int i);
 int main(){
     printf("Enter the size of the array : ");
@@ -8,9 +7,8 @@ int main(){
     scanf("%d",&n);
     int a[n];
     printf("Enter the array elements : ");
-    for(int i =0 ; i<n; i++){
+    for(int i =0 ; i<n; i++)
         scanf("%d",&a[i]);
-    }
     printf("Enter the search element : ");
     int s;
     scanf("%d",&s);
