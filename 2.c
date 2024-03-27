@@ -1,6 +1,6 @@
 //WAP to calculate GCD of two numbers by using a recursive function findGCD.
 #include<stdio.h>
-int findGCD(int,__int32);
+int findGCD(int,int);
 int main(){
     printf("Enter two numbers : ");
     int a,b;
